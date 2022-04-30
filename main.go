@@ -326,7 +326,7 @@ func main() {
 	case "patch":
 		v = patch
 	default:
-		fmt.Fprintf(os.Stderr, "%s: unknown release versiion %q\n", argv0, args[0])
+		fmt.Fprintf(os.Stderr, "%s: unknown release version %q\n", argv0, args[0])
 		os.Exit(1)
 	}
 
